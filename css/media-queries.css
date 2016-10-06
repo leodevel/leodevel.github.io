@@ -52,7 +52,11 @@
    #about .profile-pic {
       width: 114px;
       height: 114px;
-      margin-left: 12px;
+      /*margin-left: 12px;*/
+      left: 50%;
+    right: 50%;
+    margin-left: -50px;
+    margin-right: -50px;
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
@@ -123,13 +127,14 @@
 
       position: relative;
       top: 0px;
-      right: 30px;
+      right: 15px;
+      /*right: 30px;*/
    }
 
 	#nav-wrap > a:before,
    #nav-wrap > a:after {
 	   position: absolute;
-		border: 2px solid #fff;
+		border: 1px solid #fff;
 		top: 35%;
 		left: 25%;
 		right: 25%;
@@ -215,7 +220,7 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about .profile-pic { /*display: none;*/ }
    #about .download .button {
       width: 100%;
       text-align: center;
